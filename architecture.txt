@@ -1,0 +1,22 @@
+1. Whatsapp clients
+2. Text interface
+3. Main server
+4. Scheduler
+5. Postgres
+6. Redis
+
+USER SCHEMA
+-----------
+id <integer>
+joined <date>
+whatsappId <string>
+whatsappName <string>
+whatsappNo <string>
+email <string>
+eduserverName <string>
+username <string>
+password <string>
+credsValid <boolean>
+credsVerified <date>
+lastInteraction <date>
+
